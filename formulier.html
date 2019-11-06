@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>Rollende Keukens</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+     <link href="https://fonts.googleapis.com/css?family=Rokkitt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Tekst hier -->
+    <header>
+        <nav>
+            <a href="index.html"><img class="imagelogo" src="img/rollendekeukens.png" alt=""></a>
+            <a href="favoriet.html">
+                <p>Favoriet </p>
+            </a>
+            <input type="text" placeholder="Search..">
+
+        </nav>
+    </header>
+    <main>
+        <form action="thanks.html" method="post">
+        <div>
+            <label for="naam">Voornaam</label>
+            <input type="text" name="Voornaam" required>
+        </div>
+        <div>
+            <label for="Achternaam">Achternaam</label>
+            <input type="text" name="Achternaam" required>
+        </div>
+        <div>
+            <label for="Plaats">Plaats</label>
+            <input type="text" name="Plaats" required>
+        </div>
+        <div>
+            <label for="Telefoonnummer">Telefoonnummer</label>
+            <input type="tel" name="Telefoon nummer" required>
+        </div>
+        <div>
+            <label for="Begin datum">Begin datum</label>
+            <input type="date" name="Begindatum" required>
+        </div>
+        <div>
+            <label for="Eind datum">Eind datum</label>
+            <input type="date" name="Eind datum" required>
+        </div>
+        <input type="submit" value="Verstuur!">
+    </form>
+    </main>
+</body>
